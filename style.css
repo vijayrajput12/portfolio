@@ -269,9 +269,7 @@ form .btn2{
 /* ===============resoncive=========== */
 @media only screen and (max-width:600px){
     .header-text{
-        
         font-size: 16px;
-
     }
     .header-text h1{
         font-size: 30px;
@@ -290,7 +288,6 @@ form .btn2{
         padding-top: 50px;
         z-index:2;
         transition: right 1s;
-
     }
     nav ul li{
         display: block;
