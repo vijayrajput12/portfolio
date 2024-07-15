@@ -288,10 +288,14 @@ form .btn2{
         padding-top: 50px;
         z-index:2;
         transition: right 1s;
+       
+        
     }
     nav ul li{
         display: block;
         margin: 25px;
+        justify-content: space-evenly;
+        align-items: center;
     }
     nav ul li .fa-solid{
         position: absolute;
