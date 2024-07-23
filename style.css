@@ -330,7 +330,7 @@ form .btn2{
     margin-bottom: 30px;
     display: grid;
     grid-template-columns: repeat(3,33%);
-    grid-template-rows: ;
+   
     column-gap: 5px;
     row-gap: 15px;
     
