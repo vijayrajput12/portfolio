@@ -178,6 +178,9 @@ nav ul li a:hover::after{
     transform: translateY(-10px);
 }
 /* ------------------contact-------------------- */
+.container{
+    margin-left: 10px;
+}
 .contact-left{
     flex-basis: 35%;
 
@@ -190,7 +193,7 @@ nav ul li a:hover::after{
 margin-top: 30px;
 
 }
-.contact-left p i{
+.container .contact-left  i{
     color: aqua;
     margin-right: 15px;
     font-size: 25px;
@@ -322,4 +325,41 @@ form .btn2{
    } */
 }
 
+.project{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: repeat(3,33%);
+    grid-template-rows: ;
+    column-gap: 5px;
+    row-gap: 15px;
+    
+   
+}
+.projects h2{
+    font-size: 40px;
+    margin-bottom: 10px;
+    
+}
+.projects .first{
+    background-color: #262626;
+    /* width: 33%; */
+    padding: 40px;
+    border-radius: 5px;
+    margin-left: 10px;
+    transition: 1s;
+}
+.projects .first p{
+    margin-bottom: 10px;
+}
+.projects .first a{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+    
+}
 
+.projects .first:hover{
+background-color: aqua;
+    transform: translateY(-5px);
+}
